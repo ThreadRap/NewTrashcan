@@ -27,6 +27,5 @@
 
     <mappers>
         <mapper resource="DepMapper.xml"></mapper>
-        <mapper resource="#"></mapper>
     </mappers>
 </configuration>
