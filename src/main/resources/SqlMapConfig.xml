@@ -8,7 +8,7 @@
 <!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
 <!--    </settings>-->
 
-    <!--  别名处理，使得在书写映射XML文件时，可以直接使用#{alias}代替目标类的全路径#{type}，减少代码量，增强可读性  -->
+    <!--  别名处理， 使得在书写映射XML文件时，可以直接使用#{alias}代替目标类的全路径#{type}，减少代码量，增强可读性  -->
 <!--    <typeAliases>-->
 <!--        <typeAlias type="" alias=""></typeAlias>-->
 <!--    </typeAliases>-->
@@ -16,7 +16,7 @@
     <environments default="mysql">
         <environment id="mysql">
             <transactionManager type="JDBC"></transactionManager>
-            <dataSource type="POOLED">
+             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis"/>
                 <property name="username" value="root"/>
